@@ -38,7 +38,7 @@ echo '{
   ]
 }' >> $device.json
 rm changelog.txt
-cop /home/$USER/$workdir/out/target/product/$device/Changelog.txt changelog.txt	#Check case here!
+cp /home/$USER/$workdir/out/target/product/$device/Changelog.txt changelog.txt	#Check case here!
 
 git add .
 git commit -m $device': '$(date -d "$D" '+%Y')'-'$(date -d "$D" '+%m')'-'$(date -d "$D" '+%d')' update'
