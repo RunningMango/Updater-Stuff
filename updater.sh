@@ -8,8 +8,7 @@
 #Installing:
 # $ mv updater.sh ~/updater.sh
 # $ chmod +x updater.sh
-# After this, edit uncommented lines 1-5 to match your device and
-#  paths and run.
+# After this, edit lines 1-5 to match your device and paths and run.
 #
 #Note: check case of (c/C)hangelog.txt in line 40! It should match
 # your git changelog.txt
