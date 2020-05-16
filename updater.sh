@@ -16,7 +16,7 @@
 
 
 gitPath='Updater-Stuff'		#Path to git repo folder (~/Updater-Stuff/<devices>)
-device='mido' 
+device='wayne' 
 android='10'
 buildtype="Official"
 workdir='derpfest'		#Path to sources (~/derpfest/<sources>)
